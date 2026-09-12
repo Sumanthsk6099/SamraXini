@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locations>
+    <location name="Shri Kapileshwara Swamy Temple">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Moderate" />
+        <time period="Night" safety="Unsafe" />
+    </location>
+    <location name="Military Shri Mahadeva Temple">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Safe" />
+        <time period="Night" safety="Safe" />
+    </location>
+    <location name="Belagavi Fort">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Moderate" />
+        <time period="Night" safety="Unsafe" />
+    </location>
+    <location name="Khade Bazar">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Moderate" />
+        <time period="Night" safety="Moderate" />
+    </location>
+    <location name="Yashneesh Fun World">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Safe" />
+        <time period="Night" safety="Moderate" />
+    </location>
+    <location name="Ramakrishna Mission Ashrama">
+        <time period="Morning" safety="Moderate" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Moderate" />
+        <time period="Night" safety="Unsafe" />
+    </location>
+    <location name="Food Court Belgaum">
+        <time period="Morning" safety="Unsafe" />
+        <time period="Afternoon" safety="Moderate" />
+        <time period="Evening" safety="Moderate" />
+        <time period="Night" safety="Unsafe" />
+    </location>
+    <location name="Dharmanath Circle Belgaum">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Safe" />
+        <time period="Night" safety="Safe" />
+    </location>
+    <location name="Belagavi Bus Stand">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Safe" />
+        <time period="Night" safety="Moderate" />
+    </location>
+    <location name="Fort Lake">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Safe" />
+        <time period="Night" safety="Moderate" />
+    </location>
+    <location name="Ramdev Chats and Snacks">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Moderate" />
+        <time period="Night" safety="Unsafe" />
+    </location>
+    <location name="Regenta Resort Belagavi">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Safe" />
+        <time period="Night" safety="Moderate" />
+    </location>
+    <location name="Mayur Belgaum Presidency Hotel and Spa">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Safe" />
+        <time period="Night" safety="Safe" />
+    </location>
+    <location name="BIMS Sunset Point">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Safe" />
+        <time period="Night" safety="Safe" />
+    </location>
+    <location name="Nucleus Mall">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Moderate" />
+        <time period="Night" safety="Unsafe" />
+    </location>
+    <location name="UK27 The Fern - An Ecotel Hotel, Belagavi">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Moderate" />
+        <time period="Night" safety="Moderate" />
+    </location>
+    <location name="INOX (Chandan) Cinemas">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Safe" />
+        <time period="Night" safety="Moderate" />
+    </location>
+    <location name="Military Animal Park">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Unsafe" />
+        <time period="Night" safety="Unsafe" />
+    </location>
+    <location name="Shri Maruti Temple">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Moderate" />
+        <time period="Night" safety="Moderate" />
+    </location>
+    <location name="Sri Ganapati Temple">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Moderate" />
+        <time period="Night" safety="Moderate" />
+    </location>
+    <location name="Kittur Rani Chennamma Zoo, Belagavi">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Moderate" />
+        <time period="Night" safety="Moderate" />
+    </location>
+    <location name="Shri Kshetra Panchagrama Muktimatha">
+        <time period="Morning" safety="Safe" />
+        <time period="Afternoon" safety="Safe" />
+        <time period="Evening" safety="Moderate" />
+        <time period="Night" safety="Moderate" />
+    </location>
+</locations>

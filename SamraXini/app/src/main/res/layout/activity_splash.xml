@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/sparkImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/n2" />
+
+    <!-- Top Left Oval -->
+    <View
+        android:id="@+id/topleftoval"
+        android:layout_width="158dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="-20dp"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/top_left_corner_oval" />
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/sparkText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:text="SAMRAXINI"
+        android:shadowColor="#80000000"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="7"
+        android:textColor="#56D022"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <!-- Tagline -->
+
+    <!-- Get Started Button -->
+
+    <TextView
+        android:id="@+id/slang"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sparkText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="405dp"
+        android:fontFamily="cursive"
+        android:shadowColor="#80000000"
+        android:shadowDx="10"
+
+        android:shadowDy="10"
+        android:shadowRadius="7"
+        android:text="Living Without Fear"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/slang"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#803A99"
+        android:text="Get Started"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</RelativeLayout>

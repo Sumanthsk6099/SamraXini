@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <!-- Permissions -->
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- ADDED: Foreground service permission is required for all foreground services -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+
+
+
+    <!-- Application Declaration -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/n1"
+        android:label="Samraxini"
+        android:roundIcon="@drawable/n1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SparkWomen">
+
+        <!-- Launcher Activity -->
+        <activity
+            android:name="com.sumanth.samraxini.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Other Activities -->
+        <activity android:name="com.sumanth.samraxini.MainActivity"
+            android:label="Home" />
+        <activity android:name="com.sumanth.samraxini.SmsActivity"
+            android:label="SOS Service" />
+        <activity android:name="com.sumanth.samraxini.LawDisplayerActivity"
+            android:label="Law Details" />
+        <activity android:name="com.sumanth.samraxini.LawsActivity"
+            android:label="Women&apos;s Laws" />
+        <activity android:name="com.sumanth.samraxini.SafetyPredictionActivity"
+            android:label="Safety Prediction" />
+        <activity android:name="com.sumanth.samraxini.ContactActivity"
+            android:label="Emergency Contacts" />
+        <activity android:name="com.sumanth.samraxini.SelfDefenseActivity"
+            android:label="Self-Defense Tips" />
+        <activity android:name="com.sumanth.samraxini.HelplineCall"
+            android:label="Helpline Numbers" />
+
+        <!--
+          Foreground Service Declaration
+          FIX: The stray '<service' text before this block has been removed.
+        -->
+        <service
+            android:name="com.sumanth.samraxini.ServiceMine"
+            android:exported="false"
+            android:foregroundServiceType="location" />
+    </application>
+
+</manifest>
